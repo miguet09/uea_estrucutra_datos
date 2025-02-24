@@ -1,1 +1,50 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
+class Program
+{
+    static List<string> GenerarCiudadanos(int cantidad, string vacuna = "No vacunado")
+    {
+        var lista = new List<string>();
+        for (int i = 1; i <= cantidad; i++)
+        {
+            lista.Add("Ciudadano " + i + " - " + vacuna);
+        }
+        return lista;
+    }
+
+    static void MostrarListado(List<string> listado)
+    {
+        foreach (var ciudadano in listado)
+        {
+            Console.WriteLine(ciudadano);
+        }
+    }
+
+    static void Main(string[] args)
+    {
+        var ciudadanos = GenerarCiudadanos(500);  // 500 ciudadanos no vacunados
+        var vacunadosPfizer = GenerarCiudadanos(75, "Pfizer");  // 75 vacunados con Pfizer
+        var vacunadosAstraZeneca = GenerarCiudadanos(75, "AstraZeneca");  // 75 vacunados con AstraZeneca
+
+        // Operaciones con los conjuntos
+        var noVacunados = ciudadanos.Except(vacunadosPfizer).Except(vacunadosAstraZeneca).ToList();
+        var vacunadosAmbas = vacunadosPfizer.Intersect(vacunadosAstraZeneca).ToList();
+        var soloPfizer = vacunadosPfizer.Except(vacunadosAstraZeneca).ToList();
+        var soloAstraZeneca = vacunadosAstraZeneca.Except(vacunadosPfizer).ToList();
+
+        // Mostrar los resultados
+        Console.WriteLine("Listado de ciudadanos que NO se han vacunado:");
+        MostrarListado(noVacunados);
+
+        Console.WriteLine("\nListado de ciudadanos que han recibido las dos vacunas (Pfizer y AstraZeneca):");
+        MostrarListado(vacunadosAmbas);
+
+        Console.WriteLine("\nListado de ciudadanos que solamente han recibido la vacuna de Pfizer:");
+        MostrarListado(soloPfizer);
+
+        Console.WriteLine("\nListado de ciudadanos que solamente han recibido la vacuna de AstraZeneca:");
+        MostrarListado(soloAstraZeneca);
+    }
+}

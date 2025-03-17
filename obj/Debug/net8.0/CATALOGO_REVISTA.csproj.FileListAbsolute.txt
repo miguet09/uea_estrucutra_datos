@@ -1,0 +1,15 @@
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\bin\Debug\net8.0\CATALOGO_REVISTA.exe
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\bin\Debug\net8.0\CATALOGO_REVISTA.deps.json
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\bin\Debug\net8.0\CATALOGO_REVISTA.runtimeconfig.json
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\bin\Debug\net8.0\CATALOGO_REVISTA.dll
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\bin\Debug\net8.0\CATALOGO_REVISTA.pdb
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\CATALOGO_REVISTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\CATALOGO_REVISTA.AssemblyInfoInputs.cache
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\CATALOGO_REVISTA.AssemblyInfo.cs
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\CATALOGO_REVISTA.csproj.CoreCompileInputs.cache
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\CATALOGO_REVISTA.sourcelink.json
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\CATALOGO_REVISTA.dll
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\refint\CATALOGO_REVISTA.dll
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\CATALOGO_REVISTA.pdb
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\CATALOGO_REVISTA.genruntimeconfig.cache
+C:\Users\MIGUEL\source\repos\CATALOGO_REVISTA\obj\Debug\net8.0\ref\CATALOGO_REVISTA.dll
